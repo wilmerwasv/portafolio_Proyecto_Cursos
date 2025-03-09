@@ -89,12 +89,16 @@ color: #F6F6F6;
 border-color: #03a7cc;
 border: 2px solid #03a7cc;
 border-radius: 8px;
+display: flex ;
+justify-content: center;
+gap: 10px;
 }
 
 .contenedor_contenido_redes_subtitulo{
     font-family: "Krona One", sans-serif;
     font-size: 24px;
     font-weight: 400;
-
-
+}
+.contenedor_link:hover{
+background-color: #272727
 }
