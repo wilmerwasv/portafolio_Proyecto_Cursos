@@ -82,6 +82,18 @@ font-family: "Krona One", sans-serif;
     font-family: "Krona One", sans-serif;
 }
 
+.contenedor_contenido_lista{
+    list-style-type: square;
+    font-size: 24px;
+
+}
+
+.contenedor_contenido_texto{
+    font-size: 24px;
+    font-family: "Krona One", sans-serif;
+    text-align: justify;
+}
+
 .contenedor_contenido_redes{
     display: flex;
     justify-content: space-between;
