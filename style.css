@@ -16,7 +16,23 @@ strong{
     color: #22D4FD;
 }
 
+.header{
+    padding: 2% 0% 0% 15%;
+}
 
+.header_menu{
+    display: flex;
+    gap: 30px  ;
+ 
+}
+
+.header_menu_link{
+    font-family: "montserrat", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #03a7cc;
+
+}
 .titulo-blog{
     font-size: 2em;
     text-align: center;
@@ -39,7 +55,7 @@ h2{
 .contenedor{
 display: flex;
 align-items: center;
-margin: 10% 20%;
+padding: 1% 15%;
 justify-content: space-between;
 
 }
@@ -104,18 +120,10 @@ background-color: #272727
 
 .footer{
 background-color: #03a7cc;
-padding: 24px;
+padding: 15px;
 color: #000000;
 text-align: center;
 font-family: "montserrat", sans-serif;
-font-size: 24px;
+font-size: 20px;
 font-weight: 400px;
-}
-
-.header{
-
-}
-
-.header_menu{
-    
 }
