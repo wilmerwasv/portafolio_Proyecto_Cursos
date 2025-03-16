@@ -2,8 +2,9 @@
 
 :root{
     --color-primario: #000000;
-    --color-secundario: #F6F6F6;
-    --color-terciario: #03a7cc;
+    --color-secundario: #edddd4;
+    --color-terciario: #c44536;
+    --color-header: #197278;
 
     --fuente-titulo: 'Krona One', sans-serif;
     --fuente-texto: 'Montserrat', sans-serif;
@@ -41,7 +42,7 @@ strong{
     font-family: var(--fuente-texto);
     font-size: 24px;
     font-weight: 600;
-    color: var(--color-terciario);
+    color: var(--color-header);
     text-decoration: none;
 }
 .titulo-blog{
