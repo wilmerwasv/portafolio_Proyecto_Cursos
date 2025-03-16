@@ -40,13 +40,13 @@ strong{
 
 .header_menu_link{
     font-family: var(--fuente-texto);
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 600;
     color: var(--color-header);
     text-decoration: none;
 }
 .titulo-blog{
-    font-size: 2em;
+    font-size: 2rem;
     text-align: left;
     margin: 20px 0;
     strong{
@@ -55,13 +55,13 @@ strong{
 }
 
 h1{
-    font-size: 1.5em;
+    font-size: 2.5rem;
     margin: 20px 0;
     color: var(--color-terciario);
     
 }
 h2{
-    font-size: 1.2em;
+    font-size: 1.5rem;
     color: var(--color-secundario);
 }
 
@@ -75,7 +75,7 @@ justify-content: space-between;
 
 
 .contenedor_contenido{
-    width: 600px;
+    width: 50%;
     display: flex;
     flex-direction: column;
     gap: 40px;
@@ -83,27 +83,32 @@ justify-content: space-between;
 
 
 .contenedor_contenido_titulo{
-font-size: 36px;
+font-size: 1.5rem;
 font-family: var(--fuente-titulo);
 
 
 }
 
 .presentacion_contenido_texto{
-    font-size: 24px;
+    font-size: 1.5rem;
     font-family: var(--fuente-titulo)
 }
 
 .contenedor_contenido_lista{
     list-style-type: square;
-    font-size: 24px;
+    font-size: 1.5rem;
 
 }
 
 .contenedor_contenido_texto{
-    font-size: 24px;
+    font-size: 1.5rem;
     font-family: var(--fuente-texto);
     text-align: justify;
+}
+
+.contenedor_contenido_imagen{
+    width: 50%;
+   
 }
 
 .contenedor_contenido_redes{
@@ -112,18 +117,16 @@ font-family: var(--fuente-titulo);
     flex-direction: column;
     align-items: center;
     gap: 32px;
-    
-
 }
 
 .contenedor_link{
 text-align: center;
-width: 378px;
+width: 50%;
 padding: 21.5px 0px;
 border-radius: 30px;
 font-family: var(--fuente-texto);
 font-weight: 600;
-font-size: 24px;
+font-size: 1.5rem;
 text-decoration: none;
 color: var(--color-secundario);
 border-color: var(--color-terciario);
@@ -136,7 +139,7 @@ gap: 10px;
 
 .contenedor_contenido_redes_subtitulo{
     font-family: var(--fuente-titulo);
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 400;
 }
 .contenedor_link:hover{
@@ -149,6 +152,6 @@ padding: 15px;
 color: var(--color-primario);
 text-align: center;
 font-family: var(--fuente-texto);
-font-size: 20px;
+font-size: 1.2rem;
 font-weight: 400px;
 }
